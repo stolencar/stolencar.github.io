@@ -1,0 +1,58 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "Film 1",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Film 2",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Film 3",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Film 4",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Film 5",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Film 6",
+      "description": "A gripping crime drama that explores the depths of human morality.",
+      "director": "Fionn Gotkin",
+      "releaseDate": "June 2, 2025",
+      "genre": "Crime",
+      "poster": "/img/poster.jpg"
+    }
+  ]
+}
