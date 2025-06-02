@@ -24,7 +24,14 @@ function Home() {
         </div>
       </div>
       <Footer />
-      <img src="/icons/mode.svg" className="mode" title="Toggle light mode" onClick={toggleMode} />
+      <div className="icons">
+        <img src="/icons/mode.svg" title="Toggle light mode" onClick={toggleMode} />
+        <img
+          src="/icons/github.svg"
+          title="Website source code"
+          onClick={() => window.open("https://github.com/stolencar/stolencar.github.io", "_blank")}
+        />
+      </div>
     </>
   );
 }

@@ -137,6 +137,11 @@ body {
   color: var(--secondary-text);
 }
 
+.footer-credits {
+  text-align: center;
+  line-height: 20px;
+}
+
 .footer a {
   color: var(--primary-color);
   text-decoration: none;
@@ -146,10 +151,15 @@ body {
   text-decoration: underline;
 }
 
-.mode {
+.icons {
+  display: flex;
+  gap: 20px;
   position: absolute;
   top: 30px;
   right: 30px;
+}
+
+.icons img {
   cursor: pointer;
   width: 25px;
   height: 25px;
