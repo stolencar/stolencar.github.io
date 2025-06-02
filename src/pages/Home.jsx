@@ -11,10 +11,10 @@ function Home() {
     <>
       <div className="wrap">
         <div className="hero">
+          <img src="/logo.png" className="hero-img" />
           <h1 className="hero-title">Welcome to Stolen Car Productions!</h1>
           <p className="hero-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sint nesciunt eligendi explicabo, molestias rerum quis
-            unde numquam laboriosam temporibus, aliquid a, nisi eum quisquam. Maxime expedita pariatur assumenda itaque?
+            Small time production company comprised of film lovers and future film makers
           </p>
         </div>
         <div className="films">

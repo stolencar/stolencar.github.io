@@ -48,6 +48,10 @@ body {
   text-align: center;
 }
 
+.hero-img {
+  height: 100px;
+}
+
 .hero-title {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
   color: transparent;
