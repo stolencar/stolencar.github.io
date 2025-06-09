@@ -6,7 +6,8 @@ function Film({ data }) {
       className="film"
       initial={{ y: 100, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      whileHover={{scale:1.02,y:-5}}
+      whileHover={{ scale: 1.02, y: -5 }}
+      whileTap={{ scale: 1, y: 3 }}
       viewport={{ once: true }}
       transition={{ duration: 0.7, type: "spring" }}
     >

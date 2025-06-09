@@ -1,4 +1,5 @@
 import Film from "../components/Film";
+import Btn from "../components/Btn";
 import Footer from "../components/Footer";
 import { data } from "../assets/assets";
 
@@ -23,16 +24,16 @@ function Home() {
       </div>
       <Footer />
       <div className="icons">
-        <img
+        <Btn
           src="/icons/discord.svg"
           title="Join our Discord"
           onClick={() => window.open("https://discord.gg/fEhW3UvPak", "_blank")}
         />
-        <img src="/icons/mode.svg" title="Toggle light mode" onClick={toggleMode} />
-        <img
+        <Btn src="/icons/mode.svg" title="Toggle light mode" onClick={toggleMode} />
+        <Btn
           src="/icons/github.svg"
           title="Website source code"
-          onClick={() => window.open("https://github.com/stolencar/stolencar.github.io", "_blank")}
+          onclick={() => window.open("https://github.com/stolencar/stolencar.github.io", "_blank")}
         />
       </div>
     </>
