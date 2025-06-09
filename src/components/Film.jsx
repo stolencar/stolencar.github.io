@@ -1,6 +1,15 @@
+import { motion } from "framer-motion";
+
 function Film({ data }) {
   return (
-    <div className="film">
+    <motion.div
+      className="film"
+      initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+      whileHover={{scale:1.02,y:-5}}
+      viewport={{ once: true }}
+      transition={{ duration: 0.7, type: "spring" }}
+    >
       <img src={data.poster} className="film-poster" />
       <div className="film-info">
         <h2 className="film-title">{data.title}</h2>
@@ -9,7 +18,7 @@ function Film({ data }) {
           <span>{data.director}</span>•<span>{data.releaseDate}</span>•<span>{data.genre}</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

@@ -13,9 +13,7 @@ function Home() {
         <div className="hero">
           <img src="/logo.png" className="hero-img" />
           <h1 className="hero-title">Welcome to Stolen Car Productions!</h1>
-          <p className="hero-description">
-            Small time production company comprised of film lovers and future film makers
-          </p>
+          <p className="hero-description">Small time production company comprised of film lovers and future film makers</p>
         </div>
         <div className="films">
           {data.films.map((film) => {
@@ -25,6 +23,11 @@ function Home() {
       </div>
       <Footer />
       <div className="icons">
+        <img
+          src="/icons/discord.svg"
+          title="Join our Discord"
+          onClick={() => window.open("https://discord.gg/fEhW3UvPak", "_blank")}
+        />
         <img src="/icons/mode.svg" title="Toggle light mode" onClick={toggleMode} />
         <img
           src="/icons/github.svg"
